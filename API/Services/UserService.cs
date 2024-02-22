@@ -23,8 +23,9 @@ public class UserService
         return await _usersCollection.Find(x=>x.Number == number && x.Password == password).FirstOrDefaultAsync();
     }
 
-    public async Task DeleteUsersAsync(User user)
+    public async Task DeleteUsersAsync(string id)
     {
-        await _usersCollection.DeleteOneAsync(user.Id);
+        FilterDefinition<User> user = Builders<User>.Filter.Eq("Id",id);
+        await _usersCollection.DeleteOneAsync(user);
     }
 }
