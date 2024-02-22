@@ -33,15 +33,17 @@ public class ProductService
     public async Task UpdateProductAsync(Product product,string name,string barcode,int sellPrice,int BuyPrice,int count,string pv,string category)
     {
         FilterDefinition<Product> filter = Builders<Product>.Filter.Eq("Id",product.Id);
-        Product replaceProduct = new Product();
-        replaceProduct.Name = name;
-        replaceProduct.BarCode = barcode;
-        replaceProduct.SellPrice = sellPrice;
-        replaceProduct.BuyPrice = BuyPrice;
-        replaceProduct.Count = count;
-        replaceProduct.PV = pv;
-        replaceProduct.Category = category;
-        replaceProduct.Id = product.Id;
+        Product replaceProduct = new Product
+        {
+            Name = name,
+            BarCode = barcode,
+            SellPrice = sellPrice,
+            BuyPrice = BuyPrice,
+            Count = count,
+            PV = pv,
+            Category = category,
+            Id = product.Id
+        };
         await _ProductsCollection.ReplaceOneAsync(filter,replaceProduct);
     }
     
