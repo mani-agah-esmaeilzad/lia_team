@@ -17,6 +17,11 @@ public class UserService
     {
         return await _usersCollection.Find(new BsonDocument()).ToListAsync();
     }
+    
+    public async Task<User> getUsersDetailsAsync(string id)
+    {
+        return await _usersCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
+    }
 
     public async Task<User> LoginUsersAsync(string number,string password)
     {

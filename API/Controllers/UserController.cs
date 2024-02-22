@@ -22,6 +22,19 @@ public class UserController : ControllerBase
         }
     }
 
+    [HttpGet("{id}")]
+    public async Task<ActionResult<User>> Get(string id)
+    {
+        try
+        {
+            return StatusCode(200,await _userService.getUsersDetailsAsync(id));
+        }
+        catch(Exception ex)
+        {
+            return StatusCode(400,ex.Message);
+        }
+    }
+
     [HttpPost]
     public async Task<ActionResult> Post([FromBody] User user)
     {
@@ -44,7 +57,7 @@ public class UserController : ControllerBase
             await _userService.DeleteUsersAsync(id);
             return Ok();
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             return NotFound();
         }
