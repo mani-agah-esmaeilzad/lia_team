@@ -61,6 +61,19 @@ public class UserController : ControllerBase
         {
             return NotFound();
         }
-
     }
+    [HttpPost]
+    [Route("login")]
+    public async Task<ActionResult<User>> Login( string number, string password)
+    {
+        try
+        {
+            return StatusCode(200,await _userService.LoginUsersAsync(number,password));
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(401,ex.Message);
+        }
+    }
+    
 }
