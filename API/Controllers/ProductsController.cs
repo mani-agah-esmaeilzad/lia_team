@@ -64,18 +64,17 @@ namespace API.Controllers
             }
 
         }
-
         [HttpPut]
-        public async Task<IActionResult> Update( Product product, string name, string barcode, int sellPrice, int BuyPrice, int count, string pv, string category)
+        public async Task<IActionResult> Update([FromBody] Product product,string name,string barcode,int sellPrice,int buyPrice,int count,string pv)
         {
             try
             {
-                await _productService.UpdateProductAsync(product,name,barcode,sellPrice,BuyPrice,count,pv,category);
+                await _productService.UpdateProductAsync(product,name,barcode,sellPrice,buyPrice,count,pv);
                 return Ok();
             }
             catch(Exception ex)
             {
-                return StatusCode(401,ex.Message);
+                return NotFound(ex.Message);
             }
         }
     }

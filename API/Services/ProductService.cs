@@ -30,7 +30,7 @@ public class ProductService
         await _ProductsCollection.DeleteOneAsync(product);
     }
 
-    public async Task UpdateProductAsync(Product product,string name,string barcode,int sellPrice,int BuyPrice,int count,string pv,string category)
+    public async Task UpdateProductAsync(Product product,string name,string barcode,int sellPrice,int BuyPrice,int count,string pv)
     {
         FilterDefinition<Product> filter = Builders<Product>.Filter.Eq("Id",product.Id);
         Product replaceProduct = new Product
@@ -41,7 +41,7 @@ public class ProductService
             BuyPrice = BuyPrice,
             Count = count,
             PV = pv,
-            Category = category,
+            Category = product.Category,
             Id = product.Id
         };
         await _ProductsCollection.ReplaceOneAsync(filter,replaceProduct);

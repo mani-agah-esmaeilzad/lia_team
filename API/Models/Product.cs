@@ -17,5 +17,5 @@ public class Product
     [BsonElement("pv")]
     public string PV { get; set; }
     [BsonElement("category")]
-    public string Category { get; set; }
+    public Category Category { get; set; } = null!;
 }
