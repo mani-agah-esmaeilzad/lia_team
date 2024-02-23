@@ -59,7 +59,7 @@ public class UserController : ControllerBase
         }
         catch (Exception ex)
         {
-            return NotFound();
+            return NotFound(ex.Message);
         }
     }
     [HttpPost]

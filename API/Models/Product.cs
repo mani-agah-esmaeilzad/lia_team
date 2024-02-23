@@ -5,7 +5,7 @@ public class Product
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
     [BsonElement("name")]
-    public string Name { get; set; }
+    public string Name { get; set; } = null!;
     [BsonElement("barcode")]
     public string BarCode { get; set; } = null!;
     [BsonElement("sellPrice")]
@@ -15,13 +15,13 @@ public class Product
     [BsonElement("count")]
     public int Count { get; set; }
     [BsonElement("pv")]
-    public string PV { get; set; }
+    public string PV { get; set; } = null!;
     [BsonElement("category")]
     public Category Category { get; set; } = null!;
 }
 public class productFactors
 {
-public string ProductId { get; set; }
+public string ProductId { get; set; } = null!;
 public int quantity { get; set; }
 public double price { get; set; }
 }
