@@ -51,7 +51,7 @@ function LoginPage() {
 
       if (response.status === 200) {
         localStorage.setItem("user", response);
-        navigate("/");
+        navigate("/Home");
       } else {
         setLoginError(true);
       }
