@@ -9,3 +9,4 @@ global using API.Models;
 global using Microsoft.Extensions.Options;
 global using Microsoft.AspNetCore.Mvc;
 global using API.Services;
+global using PersianDateConverter;

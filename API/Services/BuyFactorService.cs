@@ -19,7 +19,6 @@ public class BuyFactorService
     public async Task<List<BuyFactor>> GetBuyFactorsAsync()
     {
         return await _BuyFactorollection.Find(new BsonDocument()).ToListAsync();
-
     }
 
     public async Task<BuyFactor> GetBuyFactorDetailsAsync(string id)

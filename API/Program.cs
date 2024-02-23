@@ -7,6 +7,8 @@ builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddSingleton<UserService>();
 builder.Services.AddSingleton<ProductService>();
 builder.Services.AddSingleton<BuyFactorService>();
+builder.Services.AddSingleton<SellFactorService>();
+
 
 
 // Add services to the container.
