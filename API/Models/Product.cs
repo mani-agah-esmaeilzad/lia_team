@@ -19,3 +19,9 @@ public class Product
     [BsonElement("category")]
     public Category Category { get; set; } = null!;
 }
+public class productFactors
+{
+public string ProductId { get; set; }
+public int quantity { get; set; }
+public double price { get; set; }
+}

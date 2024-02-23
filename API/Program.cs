@@ -6,6 +6,8 @@ builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("Mo
 builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddSingleton<UserService>();
 builder.Services.AddSingleton<ProductService>();
+builder.Services.AddSingleton<BuyFactorService>();
+
 
 // Add services to the container.
 
