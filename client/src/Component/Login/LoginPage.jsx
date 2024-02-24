@@ -50,7 +50,7 @@ function LoginPage() {
       );
 
       if (response.status === 200) {
-        localStorage.setItem("user", response);
+        localStorage.setItem("user", 'true');
         navigate("/Home");
       } else {
         setLoginError(true);

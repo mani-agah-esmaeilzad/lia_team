@@ -14,13 +14,35 @@ import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 import { useNavigate } from "react-router-dom";
 
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+
 const pages = ["Users", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [openLogoutDialog, setOpenLogoutDialog] = React.useState(false);
+
   const navigate = useNavigate();
+
+  const handleLogoutClick = () => {
+    setOpenLogoutDialog(true);
+  };
+
+  const handleCloseLogoutDialog = () => {
+    setOpenLogoutDialog(false);
+  };
+
+  const handleConfirmLogout = () => {
+    setOpenLogoutDialog(false);
+    localStorage.setItem('user','false');
+    navigate("Login");
+  };
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -29,11 +51,7 @@ function ResponsiveAppBar() {
     setAnchorElUser(event.currentTarget);
   };
 
-  const handleCloseNavMenu = () => {
-    if (page === "Users") {
-      navigate("/User");
-    }
-  };
+  const handleCloseNavMenu = () => {};
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
@@ -152,11 +170,39 @@ function ResponsiveAppBar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem
+                  key={setting}
+                  onClick={
+                    setting === "Logout"
+                      ? handleLogoutClick
+                      : handleCloseUserMenu
+                  }
+                >
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
             </Menu>
+            <Dialog
+              open={openLogoutDialog}
+              onClose={handleCloseLogoutDialog}
+              aria-labelledby="alert-dialog-title"
+              aria-describedby="alert-dialog-description"
+            >
+              <DialogTitle id="alert-dialog-title">
+                {"Logout Confirmation"}
+              </DialogTitle>
+              <DialogContent>
+                <DialogContentText id="alert-dialog-description">
+                  Are you sure you want to logout?
+                </DialogContentText>
+              </DialogContent>
+              <DialogActions>
+                <Button onClick={handleCloseLogoutDialog}>No</Button>
+                <Button onClick={handleConfirmLogout} autoFocus>
+                  Yes
+                </Button>
+              </DialogActions>
+            </Dialog>
           </Box>
         </Toolbar>
       </Container>
