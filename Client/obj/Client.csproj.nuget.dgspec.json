@@ -47,6 +47,10 @@
               "target": "Package",
               "version": "[8.0.0-preview.4.23260.4, )"
             },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
