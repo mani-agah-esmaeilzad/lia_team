@@ -27,11 +27,11 @@ public class UserController : ControllerBase
     {
         try
         {
-            return StatusCode(200,await _userService.getUsersDetailsAsync(id));
+            return StatusCode(200, await _userService.getUsersDetailsAsync(id));
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
-            return StatusCode(400,ex.Message);
+            return StatusCode(400, ex.Message);
         }
     }
 
@@ -64,16 +64,28 @@ public class UserController : ControllerBase
     }
     [HttpPost]
     [Route("login")]
-    public async Task<ActionResult<User>> Login( string number, string password)
+    public async Task<ActionResult<User>> Login(string number, string password)
     {
         try
         {
-            return StatusCode(200,await _userService.LoginUsersAsync(number,password));
+            return StatusCode(200, await _userService.LoginUsersAsync(number, password));
         }
         catch (Exception ex)
         {
-            return StatusCode(401,ex.Message);
+            return StatusCode(401, ex.Message);
         }
     }
-    
+    [HttpPut("{id}")]
+    public async Task<ActionResult> Update(string id, User user)
+    {
+        try
+        {
+            await _userService.UpdateUserAsync(id, user);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(401, ex.Message);
+        }
+    }
 }

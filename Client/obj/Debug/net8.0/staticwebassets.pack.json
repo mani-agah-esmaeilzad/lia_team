@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/Client.styles.css"
     },
     {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/bg_1.jpg",
+      "PackagePath": "staticwebassets/bg_1.jpg"
+    },
+    {
       "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
@@ -61,8 +69,52 @@
       "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/css/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/css/owl.carousel.min.css"
+    },
+    {
       "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/Read Me.txt",
+      "PackagePath": "staticwebassets/icomoon/Read Me.txt"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/demo-files/demo.css",
+      "PackagePath": "staticwebassets/icomoon/demo-files/demo.css"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/demo-files/demo.js",
+      "PackagePath": "staticwebassets/icomoon/demo-files/demo.js"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/demo.html",
+      "PackagePath": "staticwebassets/icomoon/demo.html"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/fonts/icomoon.eot",
+      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.eot"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/fonts/icomoon.svg",
+      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.svg"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/fonts/icomoon.ttf",
+      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.ttf"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/fonts/icomoon.woff",
+      "PackagePath": "staticwebassets/icomoon/fonts/icomoon.woff"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/selection.json",
+      "PackagePath": "staticwebassets/icomoon/selection.json"
+    },
+    {
+      "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icomoon/style.css",
+      "PackagePath": "staticwebassets/icomoon/style.css"
     },
     {
       "Id": "/Users/maniagah/Desktop/lia_team/Client/wwwroot/icon-192.png",

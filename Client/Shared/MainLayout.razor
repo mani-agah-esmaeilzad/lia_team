@@ -1,9 +1,13 @@
 ﻿@inherits LayoutComponentBase
 @using Shared
+@inject NavigationManager NavManager
 
 <div class="page">
     <div class="sidebar">
-        <NavMenu />
+        @if (!NavManager.Uri.Contains("/login"))
+        {
+            <NavMenu />
+        }
     </div>
 
     <main>
@@ -11,5 +15,5 @@
             @Body
         </article>
     </main>
-    
+
 </div>
