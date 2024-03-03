@@ -32,7 +32,7 @@ The LIA Team Hygiene Store Accounting Software provides a wide range of features
 We welcome contributions to the LIA Team Hygiene Store Accounting Software. If you have a feature request, bug report, or wish to contribute code, please feel free to open an issue or submit a pull request.
 
 ## License
-This project is licensed under the MIT License. For more information, please refer to the LICENSE file.
+This project is licensed under the MIT [LICENSE](https://choosealicense.com/licenses/mit/). For more information, please refer to the LICENSE file.
 
 ## Contact
 If you have any questions, feedback, or need assistance, please feel free to reach out:
