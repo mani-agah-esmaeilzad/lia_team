@@ -37,8 +37,8 @@ This project is licensed under the MIT License. For more information, please ref
 ## Contact
 If you have any questions, feedback, or need assistance, please feel free to reach out:
 
-- Email: info@lia-team.com
-- Website: www.lia-team.com
-- GitHub: @lia-team
+- Email: maniagahdev@gmail.com
+- Website: www.maniagah.ir
+- Instagram: @mani.aspx
 
 We look forward to your collaboration in improving this application!
