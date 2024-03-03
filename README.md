@@ -6,9 +6,13 @@ Welcome to the LIA Team Hygiene Store Accounting Software repository. This softw
 ## Installation
 To install the software, you need to have .Net Core 8 installed on your machine. Once you have the necessary environment, you can clone this repository and build the project using the following commands:
 ```
-git clone https://github.com/lia-team/hygiene-store-accounting.git
+git clone https://github.com/mani-agah-esmaeilzad/lia_team.git
 
-cd hygiene-store-accounting dotnet build
+cd lia_team dotnet build
+
+cd Client
+
+cd API
 ```
 
 This will compile the project and create the necessary binaries.
@@ -16,7 +20,9 @@ This will compile the project and create the necessary binaries.
 ## Running the Software
 To run the software, navigate to the project directory and use the dotnet run command:
 ```
-cd hygiene-store-accounting dotnet run
+cd Client dotnet run
+
+cd API dotnet run
 ```
 This will start the application, and you can access it via a web browser at ``` http://localhost:5000. ```
 
