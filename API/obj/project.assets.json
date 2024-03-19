@@ -228,7 +228,7 @@
           }
         }
       },
-      "PersianDateConverter/1.0.0": {
+      "PersianDateConverter/1.2.0": {
         "type": "package",
         "compile": {
           "lib/net8.0/PersianDateConverter.dll": {}
@@ -907,15 +907,15 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-    "PersianDateConverter/1.0.0": {
-      "sha512": "Lj0VOFfNVU+JtJeaA/MNlS9NZ2uhfEcUNVTOyBAE1cqPjo4yEbix/EHX56ey8Mia3ooFi6grW8BqDmFd2Betbg==",
+    "PersianDateConverter/1.2.0": {
+      "sha512": "tTT1bQmPjDFpwrFnLJFkE62vgMAjwE3iIrFVvkWFsqeIKEKhuWOETgLszUAs6lv8qj2NbV6HuBFFDbNDsvieXg==",
       "type": "package",
-      "path": "persiandateconverter/1.0.0",
+      "path": "persiandateconverter/1.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net8.0/PersianDateConverter.dll",
-        "persiandateconverter.1.0.0.nupkg.sha512",
+        "persiandateconverter.1.2.0.nupkg.sha512",
         "persiandateconverter.nuspec"
       ]
     },
@@ -1248,7 +1248,7 @@
       "Microsoft.AspNetCore.OpenApi >= 8.0.0-preview.4.23260.4",
       "MongoDB.Bson >= 2.24.0",
       "MongoDB.Driver >= 2.24.0",
-      "PersianDateConverter >= 1.0.0",
+      "PersianDateConverter >= 1.2.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1271,7 +1271,6 @@
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/8.0.100-preview.4.23260.5/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1284,6 +1283,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1304,7 +1308,7 @@
           },
           "PersianDateConverter": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -1330,7 +1334,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.4.23260.5/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

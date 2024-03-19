@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZBj3yS6wJFPVKxsJVGosaIP/c2s44ck+mOjaJLt76HKCPomjyLYS7mb6ZI2e5c/HrkPuG8q5LUmb7kWxabYAOQ==",
+  "dgSpecHash": "6O7Y0c+9v0EkZZNXkwqfiWKHFX8ZUkd3fwm+Y9Huaz0YM5Z7hrRu8DJDfukbqXK+/bbTqoysrXX5IDGI6kN8HA==",
   "success": true,
   "projectFilePath": "/Users/maniagah/Desktop/lia_team/Client/Client.csproj",
   "expectedPackageFiles": [
@@ -33,13 +33,14 @@
     "/Users/maniagah/.nuget/packages/microsoft.jsinterop/8.0.0-preview.4.23260.4/microsoft.jsinterop.8.0.0-preview.4.23260.4.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/microsoft.jsinterop.webassembly/8.0.0-preview.4.23260.4/microsoft.jsinterop.webassembly.8.0.0-preview.4.23260.4.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/microsoft.net.http.headers/2.2.0/microsoft.net.http.headers.2.2.0.nupkg.sha512",
-    "/Users/maniagah/.nuget/packages/microsoft.net.illink.tasks/8.0.0-preview.4.23259.5/microsoft.net.illink.tasks.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "/Users/maniagah/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.0-preview.4.23259.5/microsoft.net.sdk.webassembly.pack.8.0.0-preview.4.23259.5.nupkg.sha512",
+    "/Users/maniagah/.nuget/packages/microsoft.net.illink.tasks/8.0.2/microsoft.net.illink.tasks.8.0.2.nupkg.sha512",
+    "/Users/maniagah/.nuget/packages/microsoft.net.sdk.webassembly.pack/8.0.2/microsoft.net.sdk.webassembly.pack.8.0.2.nupkg.sha512",
+    "/Users/maniagah/.nuget/packages/persiandateconverter/1.2.0/persiandateconverter.1.2.0.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/system.io.pipelines/8.0.0-preview.4.23259.5/system.io.pipelines.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/system.text.encodings.web/8.0.0-preview.4.23259.5/system.text.encodings.web.8.0.0-preview.4.23259.5.nupkg.sha512",
     "/Users/maniagah/.nuget/packages/system.text.json/8.0.0-preview.4.23259.5/system.text.json.8.0.0-preview.4.23259.5.nupkg.sha512",
-    "/Users/maniagah/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.0-preview.4.23259.5/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.0-preview.4.23259.5.nupkg.sha512"
+    "/Users/maniagah/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.2/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.2.nupkg.sha512"
   ],
   "logs": []
 }
