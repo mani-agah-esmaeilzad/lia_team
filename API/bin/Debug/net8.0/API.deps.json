@@ -11,7 +11,7 @@
           "Microsoft.AspNetCore.OpenApi": "8.0.0-preview.4.23260.4",
           "MongoDB.Bson": "2.24.0",
           "MongoDB.Driver": "2.24.0",
-          "PersianDateConverter": "1.0.0",
+          "PersianDateConverter": "1.2.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -146,11 +146,11 @@
           }
         }
       },
-      "PersianDateConverter/1.0.0": {
+      "PersianDateConverter/1.2.0": {
         "runtime": {
           "lib/net8.0/PersianDateConverter.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           }
         }
       },
@@ -325,12 +325,12 @@
       "path": "mongodb.libmongocrypt/1.8.2",
       "hashPath": "mongodb.libmongocrypt.1.8.2.nupkg.sha512"
     },
-    "PersianDateConverter/1.0.0": {
+    "PersianDateConverter/1.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Lj0VOFfNVU+JtJeaA/MNlS9NZ2uhfEcUNVTOyBAE1cqPjo4yEbix/EHX56ey8Mia3ooFi6grW8BqDmFd2Betbg==",
-      "path": "persiandateconverter/1.0.0",
-      "hashPath": "persiandateconverter.1.0.0.nupkg.sha512"
+      "sha512": "sha512-tTT1bQmPjDFpwrFnLJFkE62vgMAjwE3iIrFVvkWFsqeIKEKhuWOETgLszUAs6lv8qj2NbV6HuBFFDbNDsvieXg==",
+      "path": "persiandateconverter/1.2.0",
+      "hashPath": "persiandateconverter.1.2.0.nupkg.sha512"
     },
     "SharpCompress/0.30.1": {
       "type": "package",

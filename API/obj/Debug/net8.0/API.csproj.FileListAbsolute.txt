@@ -25,7 +25,6 @@
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/staticwebassets.build.json
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/staticwebassets.development.json
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/scopedcss/bundle/API.styles.css
-/Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/API.csproj.CopyComplete
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/API.dll
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/refint/API.dll
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/API.pdb
@@ -46,3 +45,4 @@
 /Users/maniagah/Desktop/lia_team/API/bin/Debug/net8.0/runtimes/osx/native/libmongocrypt.dylib
 /Users/maniagah/Desktop/lia_team/API/bin/Debug/net8.0/runtimes/win/native/mongocrypt.dll
 /Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/API.sourcelink.json
+/Users/maniagah/Desktop/lia_team/API/obj/Debug/net8.0/API.csproj.Up2Date
