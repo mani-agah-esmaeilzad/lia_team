@@ -45,6 +45,6 @@ If you have any questions, feedback, or need assistance, please feel free to rea
 
 - Email: maniagahdev@gmail.com
 - Website: www.maniagah.ir
-- Instagram: www.instagram.com/maniagah.aspx
+- Instagram: www.instagram.com/mani.aspx
 
 We look forward to your collaboration in improving this application!
